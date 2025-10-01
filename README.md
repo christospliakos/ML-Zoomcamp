@@ -21,6 +21,11 @@ ML Zoomcamp/
 │   ├── into_to_numpy.ipynb # NumPy fundamentals notes
 │   ├── pandas.ipynb       # Pandas tutorial and exercises
 │   └── car_fuel_efficiency.csv # Dataset for homework
+├── Module 2/               # Machine Learning for Regression
+│   ├── hw2.ipynb          # Homework 2 solutions
+│   ├── price_prediction_cars.ipynb # Car price prediction project
+│   ├── car_fuel_efficiency.csv # Dataset for homework
+│   └── data.csv           # Additional dataset
 └── README.md              # This file
 ```
 
@@ -31,6 +36,16 @@ ML Zoomcamp/
 - **Homework**: Data analysis with car fuel efficiency dataset
 - **Key Skills**: Data manipulation, basic statistics, matrix operations
 
+### Module 2: Machine Learning for Regression
+- **Topics**: Linear regression, regularization, feature engineering, model validation
+- **Homework**: Car fuel efficiency prediction using linear regression
+- **Key Skills**: 
+  - Linear regression implementation from scratch
+  - Regularization techniques (Ridge regression)
+  - Data splitting and cross-validation
+  - RMSE evaluation and model comparison
+  - Handling missing values (mean imputation vs zero filling)
+
 ## Technologies Used
 
 - **Python 3.x**
@@ -38,6 +53,7 @@ ML Zoomcamp/
 - **Pandas** - Data manipulation and analysis
 - **Matplotlib** - Data visualization
 - **Seaborn** - Statistical data visualization
+- **Scikit-learn** - Machine learning library
 - **Jupyter Notebooks** - Interactive development environment
 
 ## Getting Started
@@ -50,7 +66,7 @@ ML Zoomcamp/
 
 2. Install required dependencies:
    ```bash
-   pip install numpy pandas matplotlib seaborn jupyter
+   pip install numpy pandas matplotlib seaborn scikit-learn jupyter
    ```
 
 3. Launch Jupyter Notebook:
@@ -61,7 +77,7 @@ ML Zoomcamp/
 ## Course Progress
 
 - [x] Module 1: Introduction to Machine Learning ✅
-- [ ] Module 2: Machine Learning for Regression
+- [x] Module 2: Machine Learning for Regression ✅
 - [ ] Module 3: Machine Learning for Classification
 - [ ] Module 4: Evaluation Metrics for Classification
 - [ ] Module 5: Deploying Machine Learning Models
