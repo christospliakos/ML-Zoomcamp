@@ -26,6 +26,11 @@ ML Zoomcamp/
 │   ├── price_prediction_cars.ipynb # Car price prediction project
 │   ├── car_fuel_efficiency.csv # Dataset for homework
 │   └── data.csv           # Additional dataset
+├── Module 3/               # Machine Learning for Classification
+│   ├── hw3.ipynb          # Homework 3 solutions
+│   ├── churn_prediction.ipynb # Customer churn prediction project
+│   ├── hw_data.csv        # Lead scoring dataset for homework
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv # Telco churn dataset
 └── README.md              # This file
 ```
 
@@ -45,6 +50,18 @@ ML Zoomcamp/
   - Data splitting and cross-validation
   - RMSE evaluation and model comparison
   - Handling missing values (mean imputation vs zero filling)
+
+### Module 3: Machine Learning for Classification
+- **Topics**: Logistic regression, feature importance, mutual information, model evaluation
+- **Homework**: Lead scoring prediction for course platform
+- **Key Skills**:
+  - Logistic regression for binary classification
+  - Feature encoding with DictVectorizer
+  - Mutual information score for feature selection
+  - Feature elimination techniques
+  - Regularization with different C values
+  - Handling missing values in categorical and numerical features
+  - Model accuracy evaluation
 
 ## Technologies Used
 
@@ -78,7 +95,7 @@ ML Zoomcamp/
 
 - [x] Module 1: Introduction to Machine Learning ✅
 - [x] Module 2: Machine Learning for Regression ✅
-- [ ] Module 3: Machine Learning for Classification
+- [x] Module 3: Machine Learning for Classification ✅
 - [ ] Module 4: Evaluation Metrics for Classification
 - [ ] Module 5: Deploying Machine Learning Models
 - [ ] Module 6: Decision Trees and Ensemble Learning
